@@ -13,7 +13,7 @@ button{
 
 .filterDiv {
     float: left;
-    background-color: #AAA;
+    background-color: #AAAAAA;
     color: #ffffff;
     width: 250px;
     min-height: 300px;
@@ -45,6 +45,6 @@ button{
 }
 
 .btn.active {
-    background-color: #666;
+    background-color: #AAAAFF;
     color: white;
 }
