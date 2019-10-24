@@ -1,3 +1,12 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+button{
+    border-radius: 30px;
+}
+
 .container {
     overflow: hidden;
 }
@@ -6,19 +15,20 @@
     float: left;
     background-color: #2196F3;
     color: #ffffff;
-    width: 150px;
-    line-height: 100px;
+    min-width: 120px;
+    max-width: 200px;
+    min-height: 100px;
+    padding-top: 35px;
     text-align: center;
     margin: 2px;
-    display: none; /* Hidden by default */
+    display: none;
+    border-radius: 5px;
 }
 
-/* The "show" class is added to the filtered elements */
 .show {
     display: block;
 }
 
-/* Style the buttons */
 .btn {
     border: none;
     outline: none;
@@ -27,12 +37,10 @@
     cursor: pointer;
 }
 
-/* Add a light grey background on mouse-over */
 .btn:hover {
     background-color: #ddd;
 }
 
-/* Add a dark background to the active button */
 .btn.active {
     background-color: #666;
     color: white;
