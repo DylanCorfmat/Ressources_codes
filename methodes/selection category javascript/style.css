@@ -13,16 +13,19 @@ button{
 
 .filterDiv {
     float: left;
-    background-color: #2196F3;
+    background-color: #AAA;
     color: #ffffff;
-    min-width: 120px;
-    max-width: 200px;
-    min-height: 100px;
-    padding-top: 35px;
+    width: 250px;
+    min-height: 300px;
+    padding: 40px 10px 0px 10px;
     text-align: center;
-    margin: 2px;
+    margin: 30px 2px 2px 50px;
     display: none;
     border-radius: 5px;
+}
+
+.filterDiv p{
+    text-align: left;
 }
 
 .show {
